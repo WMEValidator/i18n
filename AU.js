@@ -1,0 +1,13 @@
+".country": "Australia",
+
+"27.enabled": true,
+"59.enabled": true,
+"59.problemLink": "W:How_to_label_and_name_roads_(Australia)#Freeway",
+"112.enabled": false,
+"150.enabled": true,
+"150.problemLink": "W:How_to_label_and_name_roads_(Australia)#Freeway",
+"151.enabled": true,
+"151.problemLink": "W:How_to_label_and_name_roads_(Australia)#Major_Highway",
+"151.params": {"n": 3},
+"152.enabled": true,
+"152.problemLink": "W:How_to_label_and_name_roads_(Australia)#Minor_Highway",

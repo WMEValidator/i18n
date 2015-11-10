@@ -1,0 +1,10 @@
+".country": "Singapore",
+
+"69.enabled": true,
+"73.enabled": true,
+"150.enabled": true,
+"150.params": {"n": 2},
+"151.enabled": true,
+"151.params": {"n": 2},
+"152.enabled": true,
+"152.params": {"n": 2},
