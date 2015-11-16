@@ -218,6 +218,8 @@
 "scanner.slow.tip": 'Enables deep map analysis\n* Note: this option might slow down the scanning process',
 "scanner.ext.text": 'Report external highlights',
 "scanner.ext.tip": 'Report segments highlighted by WME Toolbox or WME Color Highlights',
+"advanced.atbottom.text": "At the bottom",
+"advanced.atbottom.tip": "Put " + WV_NAME + " at the bottom of the page",
 
 "custom.template.text": "<a target='_blank' href='"
 + PFX_FORUM + FORUM_CUSTOM + "'>Custom template</a>",
