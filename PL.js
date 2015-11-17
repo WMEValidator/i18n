@@ -441,7 +441,7 @@
 "169.solution": "Zmień nazwę ulicy na 'Brak', a następnie dodaj punkt orientacyjny 'Węzeł drogowy', żeby nazwać rondo lub usuń słowo 'ulica' z nazwy ulicy",
 "171.enabled": true,
 "171.params": {
-    "regexp": "/(^| )(?!(adm|abp|bp|bł|dr|gen|bryg|pil|dyw|hetm|im|inż|kard|ks|kmr|kadm|mjr|marsz|os|pl|ppor|ppłk|por|pn|pd|prof|płk|rtm|św|śwj|śś|wsch|zach)\\. |r\\.)[^ ]+\\./"
+    "regexp": "/(^| )(?!(adm|abp|bp|bł|dr|gen|bryg|pil|dyw|hetm|hr|im|inż|kard|ks|kmr|kadm|mjr|marsz|o|os|pl|ppor|ppłk|por|pn|pd|prof|płk|rtm|św|śwj|śś|wsch|zach)\\. |r\\.)[^ ]+\\./"
 },
 "171.solutionLink": "W:Tabela_skrótów",
 "171.title": "Nieprawidłowy skrót w nazwie ulicy",
