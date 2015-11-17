@@ -293,6 +293,9 @@
 "52.title": "Za długa nazwa ulicy",
 "52.problem": "Nazwa przejezdnego segmentu jest dłuższa niż ${n} liter i nie jest Rampą",
 "52.solution": "Consider an abbreviation for the street name according to this table",
+"52.params": {
+    "n": 35,
+},
 "57.enabled": true,
 "57.problemLink": "W:Drogi#Wjazd.2Fzjazd_bezkolizyjny",
 "57.title": "Nazwa miasta na nazwanym zjeździe",
