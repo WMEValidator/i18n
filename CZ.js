@@ -7,15 +7,20 @@
 "105.enabled": true,
 "150.enabled": true,
 "150.problemLink": "F:t=64980&p=572847#p572847",
-"150.params": {"n": 2},
+"150.params": {"n": 4},
 "151.enabled": true,
 "151.problemLink": "F:t=64980&p=572847#p572847",
-"151.params": {"n": 2},
+"151.params": {"n": 4},
 "152.enabled": true,
 "152.problemLink": "F:t=64980&p=572847#p572847",
-"152.params": {"n": 2},
+"152.params": {"n": 3},
+"153.enabled": true,
+"153.problemLink": "F:t=64980&p=572847#p572847",
+"153.params": {"n": 4},
+"154.enabled": true,
+"154.problemLink": "F:t=64980&p=572847#p572847",
+"154.params": {"n": 2},
 "170.enabled": true,
 "170.params": {
-    "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady) [^a-z])[a-z]/",
-
-}
+    "regexp": "/^(?!(alej|bratranců|bratří|bří|dr\\.|gen\\.|generála|kapitána|kpt\\.|krále|majora|mjr\\.|most|nábř\\.|nábřeží|nám\\.|náměstí|park|plk\\.|plukovníka|podplukovníka|por\\.|poručíka|pplk\\.|prap\\.|praporčíka|prof\\.|promenáda|sad|sady|sídl\\.|sídliště|tř\\.|třída|tunel|ul\\.|ulice|zahrada) [^a-z])[a-z]/"
+  },
