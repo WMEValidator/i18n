@@ -13,13 +13,13 @@
 "151.params": {"n": 4},
 "152.enabled": true,
 "152.problemLink": "F:t=64980&p=572847#p572847",
-"152.params": {"n": 3},
+"152.params": {"n": 4},
 "153.enabled": true,
 "153.problemLink": "F:t=64980&p=572847#p572847",
 "153.params": {"n": 4},
 "154.enabled": true,
 "154.problemLink": "F:t=64980&p=572847#p572847",
-"154.params": {"n": 2},
+"154.params": {"n": 3},
 "170.enabled": true,
 "170.params": {
     "regexp": "/^(?!(alej|bratranců|bratří|bří|dr\\.|gen\\.|generála|kapitána|kpt\\.|krále|majora|mjr\\.|most|nábř\\.|nábřeží|nám\\.|náměstí|park|plk\\.|plukovníka|podplukovníka|por\\.|poručíka|pplk\\.|prap\\.|praporčíka|prof\\.|promenáda|sad|sady|sídl\\.|sídliště|tř\\.|třída|tunel|ul\\.|ulice|zahrada) [^a-z])[a-z]/"
