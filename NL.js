@@ -1,7 +1,6 @@
 ".country": "Netherlands",
 ".author": "davidakachaos",
 ".updated": "2018-08-01",
-".link": "tvt: ",
 ".fallbackCode": "BE",
 ".lng": "NL",
 "city.consider.en": "consider this city name:",
