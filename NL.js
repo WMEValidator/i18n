@@ -831,8 +831,8 @@
 "201.solution.en": "Click the turn indicated with a purple question mark to confirm it. Note: you may need to make the segment 'Two-way' in order to see those turns",
 "201.solution": "Klik op de aangegeven verbinding met een paarse vraagteken om het te bevestigen. Opmerking: het kan nodig zijn om het segment 2-richtingen te maken om die verbindingen te zien",
 "202.title.en": "No public connection for public segment",
-"202.title": "Routeerbaar segment lijkt geisoleerd"
+"202.title": "Routeerbaar segment lijkt geisoleerd",
 "202.problem.en": "The public segement is not connected to any other public segment",
-"202.problem": "Het segment lijkt een publiek toegankelijk segment in het midden van niet publieke segmenten te zijn"
-"202.solution.en": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment"
-"202.solution": "Controleer of dit segment wel publiek toegankelijk moet zijn, of van type moet wijzigen"
+"202.problem": "Het segment lijkt een publiek toegankelijk segment in het midden van niet publieke segmenten te zijn",
+"202.solution.en": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment",
+"202.solution": "Controleer of dit segment wel publiek toegankelijk moet zijn, of van type moet wijzigen",
