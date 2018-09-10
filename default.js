@@ -711,3 +711,8 @@
 "201.problemLink": "W:Soft_and_hard_turns",
 "201.solution": "Click the turn indicated with a purple question mark to confirm it. Note: you may need to make the segment 'Two-way' in order to see those turns",
 "201.solutionLink": "W:Soft_and_hard_turns#Best_practices",
+"202.enabled": true,
+"202.severity": 'W', // TODO: change to error once tested
+"202.title": "BETA: No public connection for public segment (slow)",
+"202.problem": "The public segement is not connected to any other public segment",
+"202.solution": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment"
