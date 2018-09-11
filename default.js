@@ -740,4 +740,14 @@
 "213.title": "Segment has no speed limit from B to A",
 "213.problem": "Segment has no speed limit from B to A",
 "213.solution": "Verify the speed limit on the segment and set it",
-"213.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit"
+"213.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit",
+"214.enabled": true,
+"214.severity": 'W',
+"214.title": "Segment has possibly wrong speed limit from A to B",
+"214.problem": "Segment has a speed limit that seems to be incorrect",
+"214.solution": "Verify the speed limit on the segment and correct it if needed",
+"215.enabled": true,
+"215.severity": 'W',
+"215.title": "Segment has possibly wrong speed limit from B to A",
+"215.problem": "Segment has a speed limit that seems to be incorrect",
+"215.solution": "Verify the speed limit on the segment and correct it if needed"
