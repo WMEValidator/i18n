@@ -1,5 +1,5 @@
 ".country": "Germany",
-
+"speed.exceptions": "7", // Comma seperated list of exceptions
 "59.enabled": true,
 "59.problemLink": "W:How_to_label_and_name_roads_(Austria)#Autobahnen_and_Schnellstra.C3.9Fen_.28A_.26_S.29",
 "90.enabled": true,

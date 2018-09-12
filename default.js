@@ -261,6 +261,13 @@
 "button.back.text": "Back",
 "button.back.tip": "Close settings and return to main view",
 
+// Speed limits
+"speed.conversionfactor": 1, // 1 is metric
+"speed.multiplefactor": 10, // steps of 10
+"speed.exceptions": "", // Comma seperated list of exceptions
+// Exceptions are speed limits that are not at multitude of speed.multiplefactor
+// but are still valid in a country. Germany has 7 for example and the Netherlands 15 and 25.
+
 ////////////////////////////////////////////////////////////////////////
 // Checks
 "23.enabled": true,

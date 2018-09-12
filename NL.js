@@ -383,6 +383,7 @@
 "button.back.text": "Terug",
 "button.back.tip.en": "Close settings and return to main view",
 "button.back.tip": "Sluit de instellingen en keer terug naar de hoofdweergave",
+"speed.exceptions": "5,15,25", // Comma seperated list of exceptions
 "1.title.en": "WME Toolbox: Roundabout which may cause issues",
 "1.title": "WME Toolbox: Rotonde die problemen kan veroorzaken (rotonde verkeer problematisch)",
 "1.problem.en": "Junction IDs of the roundabout segments are not consecutive",
