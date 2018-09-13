@@ -836,3 +836,9 @@
 "202.problem": "Het segment lijkt een publiek toegankelijk segment in het midden van niet publieke segmenten te zijn",
 "202.solution.en": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment",
 "202.solution": "Controleer of dit segment wel publiek toegankelijk moet zijn, of van type moet wijzigen",
+"214.params": {
+    "regexp": "/^5|15|25|.+0$/", // match 5, 15, 25 or other limit with '0' at the end
+},
+"215.params": {
+    "regexp": "/^5|15|25|.+0$/", // match 5, 15, 25 or other limit with '0' at the end
+},

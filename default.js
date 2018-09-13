@@ -715,4 +715,41 @@
 "202.severity": 'W', // TODO: change to error once tested
 "202.title": "BETA: No public connection for public segment (slow)",
 "202.problem": "The public segement is not connected to any other public segment",
-"202.solution": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment"
+"202.solution": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment",
+// speed limits
+"210.enabled": true,
+"210.title": "Segment has unverified speed limits from A to B",
+"210.problem": "Segment has speed limit set from A to B that is unverified",
+"210.solution": "Verify the speed limit on the segment and confirm or correct it",
+"210.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit",
+"211.enabled": true,
+"211.title": "Segment has unverified speed limits from B to A",
+"211.problem": "Segment has speed limit set from B to A that is unverified",
+"211.solution": "Verify the speed limit on the segment and confirm or correct it",
+"211.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit",
+"212.enabled": true,
+"212.title": "Segment has no speed limit set from A to B",
+"212.problem": "Segment has no speed limit set from A to B",
+"212.solution": "Verify the speed limit on the segment and set it",
+"212.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit",
+"213.enabled": true,
+"213.title": "Segment has no speed limit set from B to A",
+"213.problem": "Segment has no speed limit set from B to A",
+"213.solution": "Verify the speed limit on the segment and set it",
+"213.solutionLink": "W:Global/Creating_and_editing_road_segments#Speed_limit",
+"214.enabled": true,
+"214.title": "Segment has possibly wrong speed limit from A to B",
+"214.problem": "Segment has a speed limit that seems to be incorrect",
+"214.solution": "Verify the speed limit on the segment and correct it if needed",
+"214.params": {
+    "regexp.title": "{string} regular expression to match valid speed limits",
+    "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
+},
+"215.enabled": true,
+"215.title": "Segment has possibly wrong speed limit from B to A",
+"215.problem": "Segment has a speed limit that seems to be incorrect",
+"215.params": {
+    "regexp.title": "{string} regular expression to match valid speed limits",
+    "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
+},
+"215.solution": "Verify the speed limit on the segment and correct it if needed"
