@@ -261,13 +261,6 @@
 "button.back.text": "Back",
 "button.back.tip": "Close settings and return to main view",
 
-// Speed limits
-"speed.conversionfactor": 1, // 1 is metric
-"speed.multiplefactor": 10, // steps of 10
-"speed.exceptions": "", // Comma seperated list of exceptions
-// Exceptions are speed limits that are not at multitude of speed.multiplefactor
-// but are still valid in a country. Germany has 7 for example and the Netherlands 15 and 25.
-
 ////////////////////////////////////////////////////////////////////////
 // Checks
 "23.enabled": true,
@@ -748,7 +741,15 @@
 "214.title": "Segment has possibly wrong speed limit from A to B",
 "214.problem": "Segment has a speed limit that seems to be incorrect",
 "214.solution": "Verify the speed limit on the segment and correct it if needed",
+"214.params": {
+    "regexp.title": "{string} regular expression to match valid speed limits",
+    "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
+},
 "215.enabled": true,
 "215.title": "Segment has possibly wrong speed limit from B to A",
 "215.problem": "Segment has a speed limit that seems to be incorrect",
+"215.params": {
+    "regexp.title": "{string} regular expression to match valid speed limits",
+    "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
+},
 "215.solution": "Verify the speed limit on the segment and correct it if needed"

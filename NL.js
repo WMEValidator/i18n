@@ -383,7 +383,6 @@
 "button.back.text": "Terug",
 "button.back.tip.en": "Close settings and return to main view",
 "button.back.tip": "Sluit de instellingen en keer terug naar de hoofdweergave",
-"speed.exceptions": "5,15,25", // Comma seperated list of exceptions
 "1.title.en": "WME Toolbox: Roundabout which may cause issues",
 "1.title": "WME Toolbox: Rotonde die problemen kan veroorzaken (rotonde verkeer problematisch)",
 "1.problem.en": "Junction IDs of the roundabout segments are not consecutive",
@@ -837,3 +836,9 @@
 "202.problem": "Het segment lijkt een publiek toegankelijk segment in het midden van niet publieke segmenten te zijn",
 "202.solution.en": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment",
 "202.solution": "Controleer of dit segment wel publiek toegankelijk moet zijn, of van type moet wijzigen",
+"214.params": {
+    "regexp": "/^5|15|25|.+0$/", // match 5, 15, 25 or other limit with '0' at the end
+},
+"215.params": {
+    "regexp": "/^5|15|25|.+0$/", // match 5, 15, 25 or other limit with '0' at the end
+},

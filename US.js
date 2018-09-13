@@ -1,8 +1,5 @@
 ".country": "United States",
 
-"speed.conversionfactor": 1.609, // mph
-"speed.multiplefactor": 5, // steps of 5
-
 "27.enabled": true,
 "90.enabled": true,
 "106.enabled": true,
