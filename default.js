@@ -171,7 +171,7 @@
 "search.checks.text": "<b>Reported as:</b>",
 "search.checks.tip": "Include only segments reported as specified"
 + "\nThis field matches:"
-+ "\n - severities: errors"
++ "\n - severities: error|warning|note|custom1|custom2"
 + "\n - check names: New road"
 + "\n - check IDs: 200"
 + "\nThis field supports:"
