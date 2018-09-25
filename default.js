@@ -752,4 +752,8 @@
     "regexp.title": "{string} regular expression to match valid speed limits",
     "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
 },
-"215.solution": "Verify the speed limit on the segment and correct it if needed"
+"215.solution": "Verify the speed limit on the segment and correct it if needed",
+"250.enabled": true,
+"250.title": "Venue has no city set",
+"250.problem": "This venue has no city set. Every venue should have a city.",
+"250.solution": "Set the city for the venue."
