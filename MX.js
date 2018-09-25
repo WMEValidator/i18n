@@ -2,7 +2,7 @@
 ".updated": "2018-09-19",
 ".author": "carloslaso",
 ".fallbackCode": "ES",
-".lng": ["ES-419","EN-US","EN"],
+".lng": ["ES-419"],
 "city.consider.en": "consider this city name:",
 "city.consider": "Considera el siguiente nombre de ciudad:",
 "city.1.en": "city name is too short",
