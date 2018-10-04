@@ -715,7 +715,7 @@
 "202.enabled": true,
 "202.severity": 'W', // TODO: change to error once tested
 "202.title": "BETA: No public connection for public segment (slow)",
-"202.problem": "The public segement is not connected to any other public segment",
+"202.problem": "The public segment is not connected to any other public segment",
 "202.solution": "Verify if the segment is meant to be a public accessible segment, or it should be changed to a private segment",
 // speed limits
 "210.enabled": true,
