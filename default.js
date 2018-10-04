@@ -171,7 +171,7 @@
 "search.checks.text": "<b>Reported as:</b>",
 "search.checks.tip": "Include only segments reported as specified"
 + "\nThis field matches:"
-+ "\n - severities: error|warning|note|custom1|custom2"
++ "\n - severities: errors"
 + "\n - check names: New road"
 + "\n - check IDs: 200"
 + "\nThis field supports:"
@@ -230,13 +230,12 @@
 + "\n  ${altCity[index or delimeter]}, ${altStreet[index or delimeter]}"
 + "\nSegment properties:"
 + "\n  ${type}, ${typeRank}, ${toll}, ${direction}, ${elevation}, ${lock},"
-+ "\n  ${length}, ${ID}, ${speedLimit}, ${speedLimitAB}, ${speedLimitBA}"
++ "\n  ${length}, ${ID}"
 + "\nHelpers:"
 + "\n  ${drivable}, ${roundabout}, ${hasHNs},"
 + "\n  ${Uturn}, ${deadEnd}, ${softTurns},"
 + "\n  ${deadEndA}, ${partialA},"
-+ "\n  ${deadEndB}, ${partialB},"
-+ "\n  ${checkSpeedLimit}"
++ "\n  ${deadEndB}, ${partialB}"
 + "\nConnectivity:"
 + "\n  ${segmentsA}, ${inA}, ${outA}, ${UturnA},"
 + "\n  ${segmentsB}, ${inB}, ${outB}, ${UturnB}"
@@ -753,4 +752,54 @@
     "regexp.title": "{string} regular expression to match valid speed limits",
     "regexp": "/^.+[05]$/", // match any limit with '0' or '5 at the end
 },
-"215.solution": "Verify the speed limit on the segment and correct it if needed"
+"215.solution": "Verify the speed limit on the segment and correct it if needed",
+"250.enabled": true,
+"250.title": "Venue has no city set",
+"250.problem": "This venue has no city set. Every venue should have a city",
+"250.solution": "Set the city for the venue",
+"251.enabled": true,
+"251.title": "Venue has last been updated by a bot",
+"251.serverty": 'N',
+"251.problem": "The last updater was a automated system. Please verify the information to be accurate",
+"251.solution": "Validate the information of the venue and update where needed",
+"252.enabled": true,
+"252.title": "Parking lot is missing type",
+"252.problem": "This parking lot is not set to either PUBLIC, RESTRICTED or PRIVATE",
+"252.solution": "Set type of the parking lot",
+"253.enabled": true,
+"253.title": "Parking lot is missing cost type",
+"253.problem": "This parking lot costs are not set to either Free, Low, Moderate or Expensive",
+"253.solution": "Set the costs of the parking lot",
+"254.enabled": true,
+"254.title": "Parking lot is missing payment type",
+"254.problem": "This parking lot is missing payment type(s)",
+"254.solution": "Set the payment type(s) of the parking lot",
+"255.enabled": true,
+"255.title": "No lot elevation",
+"255.problem": "This parking lot has no elevation. Is it street level?",
+"255.solution": "Set the elevation of the parking lot",
+"256.enabled": true,
+"256.title": "Entry/exit point has not been moved",
+"256.problem": "Entry/exit point has not been moved from its initial position",
+"256.solution": "Set the correct entry/exit point to this venue",
+"257.enabled": true,
+"257.title": "Parking lot has no entry/exit point",
+"257.problem": "The parking lot has no entry/exit point set",
+"257.solution": "Set a correct entry/exit point to this parking lot",
+"258.enabled": true,
+"258.title": "Park is possibly better categorized as Forest/Trees",
+"258.serverty": 'N',
+"258.problem": "This park has no name and no city set. This indicates that in fact a better category is Forest/Trees",
+"258.solution": "Validate this is in fact a park (with a name and city set) or it should be in the Forest/Trees category",
+"259.enabled": true,
+"259.title": "Brand missing in name of gas station",
+"259.problem": "The brand of a gas station should be in the name of the station",
+"259.solution": "Add/replace the brand in the name of the gas station",
+"260.enabled": true,
+"260.title": "Gas station locked to the wrong level",
+"260.params": {
+    "n.title": "{number} minimum level",
+    "n": 3,
+},
+"260.problem": "A gas station should be locked to at least 3",
+"260.solution": "Lock the gas station to at least level 3"
