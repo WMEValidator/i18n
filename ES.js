@@ -1,7 +1,7 @@
 /*
  * ES.js -- WME Validator Localization for Spain and other countries
  * Copyright (C) 2014-2018 Fernando Anguita aka fernandoanguita
- * Copyright (C) 2014-2018 robindlc
+ * Copyright (C) 2014-2018 Manuel Carda aka robindlc
  *
  * This file is part of WME Validator: https://github.com/WMEValidator/
  *
