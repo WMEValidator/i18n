@@ -810,3 +810,7 @@
     "n.title": "{number} minimum lock level",
     "n": 3,
 },
+"261.enabled": true,
+"261.title": "Category 'OTHER' should not be used",
+"261.problem": "The 'OTHER' category isn't very useful. Users can search on category, other doesn't give enough information",
+"261.solution": "Please select the correct category",
