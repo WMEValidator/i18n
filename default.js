@@ -770,6 +770,10 @@
 "251.title": "Automatically updated Venue",
 "251.problem": "The Venue was updated by Waze",
 "251.solution": "Verify and update Venue details if needed",
+"251.params": {
+    "regexp.title": "{string} regular expression to match bot names and ids",
+    "regexp": "/^waze-maint|^105774162$|^waze3rdparty$|^361008095$|^WazeParking1$|^338475699$|^admin$|^-1$|^avsus$|^107668852$/i", // match any limit with '0' or '5 at the end
+},
 "252.enabled": true,
 "252.title": "No type on Parking Lot",
 "252.problem": "The primary Parking Lot type is not set",
