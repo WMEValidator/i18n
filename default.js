@@ -818,3 +818,19 @@
 "261.title": "Category 'OTHER' should not be used",
 "261.problem": "The 'OTHER' category isn't very useful. Users can search on category, other doesn't give enough information",
 "261.solution": "Please select the correct category",
+"262.enabled": true,
+"262.title": "Invalid phone number",
+"262.problem": "The Venue has a invalid phone number",
+"262.solution": "Verify and update Venue phone number",
+"262.params": {
+    "regexp.title": "{string} regular expression to match a correct phone number",
+    "regexp": "/.+/", // This should be localized per country!! Reports non matches!
+},
+"263.enabled": true,
+"263.title": "Invalid URL",
+"263.problem": "The Venue has a invalid URL",
+"263.solution": "Verify and update Venue URL",
+"263.params": {
+    "regexp.title": "{string} regular expression to match a correct URL",
+    "regexp": "/[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i",
+},
