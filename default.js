@@ -832,7 +832,7 @@
 "263.solution": "Verify and update Venue URL",
 "263.params": {
     "regexp.title": "{string} regular expression to match a correct URL",
-    "regexp": "/[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i",
+    "regexp": "/^(https?:\/\/)?([\da-z\.-]+\.[a-z\.]{2,6}|[\d\.]+)([\/:?=&#]{1}[\da-z\.-]+)*[\/\?]?$/i",
 },
 // See Wazeopedia: https://wazeopedia.waze.com/wiki/Global/Places#When_to_use_Area_or_Point
 "264.enabled": true,
