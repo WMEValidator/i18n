@@ -907,13 +907,6 @@
 "259.title": "Geen merk in naam van benzinepomp",
 "259.problem": "Het merk van de benzinepomp komt niet voor in de naam",
 "259.solution": "Voeg het merk toe in de naam van de benzinepomp",
-"260.title": "Missend lock op benzinepomp",
-"260.problem": "Een benzinepomp moet minimaal gelockt zijn op Lvl ${n}",
-"260.solution": "Lock de benzinepomp naar het juiste level",
-"260.params": {
-    "n.title": "{number} minimum lock level",
-    "n": 3,
-},
 "261.title": "Categorie 'OVERIGE' kan beter niet gebruikt worden",
 "261.problem": "De categorie 'OVERIGE' is niet nuttig. Gebruikers kunnen zoeken op een categorie en OVERIGE bied geen houvast",
 "261.solution": "Selecteer de juiste categorie voor de plaats",
