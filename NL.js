@@ -876,6 +876,10 @@
 "250.title": "Geen stad ingesteld bij plaats",
 "250.problem": "De plaats heeft geen stad ingesteld",
 "250.solution": "Stel de stad in voor de plaats",
+"250.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(TRANSPORTATION|NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
+},
 "251.title": "Automatisch aangepaste plaats",
 "251.problem": "De plaats was automatisch aangepast door Waze",
 "251.solution": "Controleer de plaats details en pas deze aan als het nodig is",
@@ -967,4 +971,11 @@
     "n": 3,
     "regexp.title": "{string} regular expression to match categories that should be locked to {number}",
     "regexp": "/(GAS_STATION|AIRPORT)/",
+},
+"268.title": "Geen straatnaam ingesteld bij plaats",
+"268.problem": "De plaats heeft geen straatnaam ingesteld",
+"268.solution": "Stel de straatnaam in voor de plaats",
+"268.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(TRANSPORTATION|NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
 },
