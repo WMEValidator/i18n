@@ -766,6 +766,10 @@
 "250.title": "No city name on Venue",
 "250.problem": "The Venue has no city name set",
 "250.solution": "Set the city name",
+"250.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
+},
 "251.enabled": true,
 "251.title": "Automatically updated Venue",
 "251.problem": "The Venue was updated by Waze",
@@ -863,4 +867,12 @@
     "n": 3,
     "regexp.title": "{string} regular expression to match categories that should be locked to {number}",
     "regexp": "/(GAS_STATION|AIRPORT)/",
+},
+"268.enabled": true,
+"268.title": "Venue has no street set",
+"268.problem": "This venue has no street set. Every venue should have a street",
+"268.solution": "Set the street for the venue",
+"268.params": {
+  "regexp.title": "{string} regular expression to match categories that should be excepted from this check",
+  "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
 },
