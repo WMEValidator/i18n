@@ -133,7 +133,7 @@
 "tab.help.text": "help",
 "tab.help.tip": "Need help?",
 
-"filter.places.text": "<span style='color:#c00000'><b>BETA:</b> Enable <b>places</b> checks</span>",
+"filter.places.text": "<span style='color:#c00000'><b>BETA:</b> Enable <b>Places</b> checks</span>",
 "filter.places.tip": "Do not run places checks",
 "filter.noneditables.reverted": "The 'Exclude non-editable objects' filter option has been removed because the area you just scanned has no editable objects.\n\nNow just click 'Show report' to view the report!",
 "filter.noneditables.text": "Exclude <b>non-editable</b> objects",
