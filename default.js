@@ -785,7 +785,7 @@
   "regexp": "/^(NATURAL_FEATURES|BRIDGE|ISLAND|FOREST_GROVE|SEA_LAKE_POOL|RIVER_STREAM|CANAL|DAM|TUNNEL|JUNCTION_INTERCHANGE)$/",
 },
 "251.enabled": true,
-"251.title": "BETA: No street nme on Place",
+"251.title": "BETA: No street name on Place",
 "251.problem": "The Place has no street name set",
 "251.solution": "Set the street name",
 "251.params": {
