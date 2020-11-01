@@ -19,8 +19,8 @@
 "160.enabled": true,
 "160.problemLink": "W:Belgium/Freeway",
 "160.params": {
-    "solutionEN": "Rename the Freeway segment to a 'Anum' or 'Anum - Enum' or 'Anum ri Dir1 / Dir2'",
-    "regexp": "!/^(A|B|E)[0-9]+( - (A|E)[0-9]+)*( ri [^\\/]+( \\/ [^\\/]+)*)?$/",
+    "solutionEN": "Rename the Freeway segment to a 'Anum' or 'Anum - Enum' or 'Anum > Dir1 / Dir2'",
+    "regexp": "!/^(A|B|E)[0-9]+( - (A|E)[0-9]+)*( > [^\\/]+( \\/ [^\\/]+)*)?$/",
 },
 
 "163.enabled": true,
