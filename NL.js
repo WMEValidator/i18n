@@ -902,11 +902,11 @@
 "254.solution": "Stel de juiste in-/uitgang punt in voor de plaats",
 "255.title": "Fout telefoon nummer",
 "255.problem": "De plaats heeft een fout telefoon nummer",
-"255.solution": "In Nederland gebruiken we +31 AA BBBBBBBB, of +31 AAA BBBBBBB voor vaste lijnen en +31 6 CBBBBBBB voor mobiele nummers. Corrigeer het telefoon nummer volgens die formaten",
+"255.solution": "In Nederland gebruiken we +31 AA BBBBBBBB, of +31 AAA BBBBBBB voor vaste lijnen en +31 6 CBBBBBBB voor mobiele nummers, of 0800 BBBBBB of 0900 BBBBBB voor 0800 en 0900 nummers. Corrigeer het telefoon nummer volgens die formaten",
 "255.solutionLink": "P:Netherlands/Places#More_Info_tab",
 "255.params": {
     "regexp.title": "{string} regular expression to match a correct phone number",
-    "regexp": "/\\+31(?: \\d{2} \\d{8}| \\d{3} \\d{6}|\\s6 \\d{8})/", // This should be localized per country!! Reports non matches!
+    "regexp": "/^0(?:80|90)[0-9] (?:[0-9]{4}|[0-9]{7})$|^\\+31(?: 0?[0-9]{2} [0-9]{7,8}| 6 [0-9]{8})$/", 
 },
 "256.title": "Onjuiste URL",
 "256.problem": "De plaats heeft een onjuiste URL",
