@@ -21,3 +21,7 @@
     "problemEN": "The street name has incorrect abbreviation, or character",
     "solutionEN": "Check upper/lower case, a space before/after the abbreviation and the accordance with the abbreviation table. Remove any comma (,), backslash (\\), or semicolon (;)"
 },
+"29.problem": "Verify if roundabout should be named",
+"29.problemLink": "P:USA/Roundabout#Creation_from_an_intersection",
+"29.solution": "If the roundabout doesn't have a name, which is usually the case, click the None box next to Street. If the roundabout is a named circle on local signs, its segments can be named just like any other road.",
+"29.solutionLink": "P:Global/Creating_and_editing_road_segments#Address_Properties",
