@@ -121,7 +121,7 @@
 "msg.textarea": 'Please copy the text below and then paste it into your forum post or private message',
 
 
-"noaccess.text": "<b>Sorry,</b><br>You cannot use WME Validator over here.<br>Please check <a target='_blank' href='" + PFX_FORUM + FORUM_HOME + "'>the forum thread</a><br>for more information.",
+"noaccess.text": "<b>Sorry,</b><br>You cannot use WME Validator over here.<br>Please check <a target='_blank' href='" + PFX_DISCUSS + DISCUSS_HOME + "'>the forum thread</a><br>for more information.",
 "noaccess.tip": "Please check the forum thread for more information!",
 
 "tab.switch.tip.on": 'Click to switch highlighting on (Alt+V)',
@@ -186,10 +186,10 @@
 "search.checks.example": "Example: reverse*",
 
 "help.text": '<b>Help Topics:</b>'
-+ '<br><a target="_blank" href="' + PFX_FORUM + FORUM_FAQ + '">F.A.Q.</a>'
-+ '<br><a target="_blank" href="' + PFX_FORUM + FORUM_HOME + '">Ask your question on the forum</a>'
-+ '<br><a target="_blank" href="' + PFX_FORUM + FORUM_LOCAL + '">How to adjust Validator for your country</a>'
-+ '<br><a target="_blank" href="' + PFX_FORUM + 't=76488&p=663286#p663286">About the "Might be Incorrect City Name"</a>'
++ '<br><a target="_blank" href="' + PFX_DISCUSS + DISCUSS_FAQ + '">F.A.Q.</a>'
++ '<br><a target="_blank" href="' + PFX_DISCUSS + DISCUSS_HOME + '">Ask your question on the forum</a>'
++ '<br><a target="_blank" href="' + PFX_DISCUSS + DISCUSS_LOCAL + '">How to adjust Validator for your country</a>'
++ '<br><a target="_blank" href="' + PFX_DISCUSS + 't/script-wme-validator/44877/58">About the "Might be Incorrect City Name"</a>'
 ,
 "help.tip": "Open in a new browser tab",
 
@@ -226,7 +226,7 @@
 "advanced.atbottom.tip": "Put WME Validator at the bottom of the page",
 
 "custom.template.text": "<a target='_blank' href='"
-+ PFX_FORUM + FORUM_CUSTOM + "'>Custom template</a>",
++ PFX_DISCUSS + DISCUSS_CUSTOM + "'>Custom template</a>",
 "custom.template.tip": "User-defined custom check expandable template."
 + "\n\nYou may use the following expandable variables:"
 + "\nAddress:"
@@ -248,7 +248,7 @@
 "custom.template.example": "Example: ${street}",
 
 "custom.regexp.text": "Custom <a target='_blank' href='"
-+ PFX_FORUM + FORUM_CUSTOM + "'>RegExp</a>",
++ PFX_DISCUSS + DISCUSS_CUSTOM + "'>RegExp</a>",
 "custom.regexp.tip": "User-defined custom check regular expression to match the template."
 + "\n\nCase-insensitive match: /regexp/i"
 + "\nNegation (do not match): !/regexp/"
@@ -281,7 +281,7 @@
 "24.problem": "The segment might have incorrect city name",
 "24.problemLink": "P:Global/Smudged_city",
 "24.solution": "Consider suggested city name and use this form to rename the city",
-"24.solutionLink": "F:t=50314#p450378",
+"24.solutionLink": "D:t/city-name-change-form/38729",
 "25.enabled": true,
 "25.severity": 'W',
 "25.title": "Unknown direction of drivable road",
@@ -413,7 +413,7 @@
 "57.severity": 'W',
 "57.title": "City name on named Ramp",
 "57.problem": "City name on the named Ramp may affect search results",
-"57.problemLink": "F:t=68015",
+"57.problemLink": "D:t/freeways-on-off-ramps-include-city-name/67570",
 "57.solution": "In the address properties check the 'None' box next to the city name and then click 'Apply'",
 "57.solutionLink": "P:Global/Creating_and_editing_road_segments#Address_Properties",
 "59.title": "City name on Freeway",
@@ -449,7 +449,7 @@
 "77.solution": "Disable U-turn",
 "78.enabled": true,
 "78.severity": 'W',
-"78.title": "Same endpoints drivable segments (slow)",
+"78.title": "Same endpoints (2 segment loop)",
 "78.problem": "Two drivable segments share the same two endpoints",
 "78.problemLink": "P:Global/Junction_Style_Guide#Two-segment_loops",
 "78.solution": "Split the segment. You might also remove one of the segments if they are identical",
@@ -513,11 +513,11 @@
 "104.enabled": true,
 "104.title": "Railroad used for comments",
 "104.problem": "The Railroad segment is probably used as a map comment",
-"104.problemLink": "F:t=61546",
+"104.problemLink": "D:t/regarding-railroads/44330",
 "104.solution": "Remove the comment as Railroads will be added to the client display",
 "105.title": "Walking Trail instead of a Railroad",
 "105.problem": "The Walking Trail segment with elevation -5 is probably used instead of a Railroad",
-"105.problemLink": "F:t=61546",
+"105.problemLink": "D:t/regarding-railroads/44330",
 "105.solution": "Change road type to Railroad as Railroads will be added to the client display",
 
 "106.title": "No state name selected",
@@ -682,7 +682,7 @@
 "190.title": "Lowercase city name",
 "190.problem": "The city name starts with a lowercase letter",
 "190.solution": "Use this form to rename the city",
-"190.solutionLink": "F:t=50314#p450378",
+"190.solutionLink": "D:t/city-name-change-form/38729",
 "190.params": {
     "regexp.title": "{string} regular expression to match a lowercase city name",
     "regexp": "/^[a-zа-яёіїєґ]/",
@@ -691,7 +691,7 @@
 "191.title": "Incorrectly abbreviated city name",
 "191.problem": "The city name has incorrect abbreviation",
 "191.solution": "Use this form to rename the city",
-"191.solutionLink": "F:t=50314#p450378",
+"191.solutionLink": "D:t/city-name-change-form/38729",
 "191.params": {
     "regexp.title": "{string} regular expression to match incorrect abbreviations",
     "regexp": "/\\./",
@@ -700,7 +700,7 @@
 "192.title": "Unneeded spaces in city name",
 "192.problem": "Leading/trailing/double space in the city name",
 "192.solution": "Use this form to rename the city",
-"192.solutionLink": "F:t=50314#p450378",
+"192.solutionLink": "D:t/city-name-change-form/38729",
 "192.params": {
     "regexp": "/^\\s|\\s$|\\s\\s/",
 },
@@ -708,7 +708,7 @@
 "193.title": "No space before/after city abbreviation",
 "193.problem": "No space before ('1943r.') or after ('st.Jan') an abbreviation in the city name",
 "193.solution": "Use this form to rename the city",
-"193.solutionLink": "F:t=50314#p450378",
+"193.solutionLink": "D:t/city-name-change-form/38729",
 "193.params": {
     "regexp": "/([^\\s]\\.[^\\s0-9-][^\\s0-9\\.])|([0-9][^\\s0-9]+\\.[^0-9-])/",
 },
